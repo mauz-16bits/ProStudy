@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProStudy: Dashboard</title>
+    <link rel="stylesheet" href="styleapp.css">
+</head>
+<body>
+
+    <div class="title">
+    
+        <div class="write">
+    
+            <h1>ProStudy</h1>
+            <h3 class="subT">Organização escolar</h3>
+    
+        </div>
+    </div>
+
+    <div id="create-list">
+        <h2>Crie uma Lista</h2>
+        <input type="text" id="list-name" placeholder="Nome da Lista">
+        <button onclick="addList()">Adicionar Lista</button>
+    </div>
+
+    <div id="study-lists">
+        <h2>Suas Listas</h2>
+        <table id="lists-table">
+            <thead>
+                <tr>
+                    <th>Nome da Lista</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="lists-body">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="tasks">
+        <h2>Tarefas da Lista</h2>
+        <input type="text" id="task-name" placeholder="Nome da Tarefa">
+        <button onclick="addTask()">Adicionar Tarefa</button>
+        <table id="tasks-table">
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tasks-body">
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Tutorial</h2>
+    <p>Crie uma lista, a partir do momento que você criar uma lista, as tarefas serão associadas a ela, quando você criar outra lista, use "Ações" para alternar entre listas</p>
+
+    <!-- Quem fez isso tudo? -->
+    <!-- eu -->
+    <!-- EU QUEM FDP??? A GENTE NAO TA NO WHATSAPP NAO -->
+    <!-- maurício :3 -->
+    <!-- boa mano, ficou muito bom,nem sabia que tinha como fazer isso -->
+    <!-- vlwww, mas qm ta falando? -->
+    <!-- Henrique -->
+    <!-- ata -->
+
+    <script src="mainapp.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+/* Mds q css feio */
+/* faz ocê ent ):< ja fiz a desgraça do backend, nn era pra eu estar fazendo isso aq nn */
+/* Grandes coisa */
+
+body {
+    font-family: "Roboto Slab";
+}
+
+.content {
+    text-align: center;
+}
+
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.title {
+    background: rgb(68, 65, 65);
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    text-align: center;
+    font-family: "Roboto Slab";
+}
+.subT {
+    margin-top: -27px;
+}
+
+.firC {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 10px;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.firC:hover {
+    color: rgb(68, 65, 65);
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 21px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.secC {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+
+.secC:hover {
+    color: rgb(255, 254, 254);
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 21px;
+    background-color: rgb(68, 65, 65);
+    border-color: rgb(68, 65, 65);
+}
+
+.subTxt {
+    margin-top: -25px;
+}
+
+input {
+    margin-top: 10px;
+}
+a {
+    border-style: solid;
+    padding: 10px;
+
+}
+.write {
+    margin-top: -22px;
+}
+
+.imgExemple {
+    margin-top: 50px; 
+    margin-bottom: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+.inpDia {
+    margin-top: 15px;
+}
+.btnDia {
+    margin-top: 20px;
+    font-size: 23px;
+    transition: 1s;
+    transform: 1s;
+}
+.btnDia:hover {
+    transition: 1s;
+    transform: 1s;
+    font-size: 27px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(68, 65, 65);
+    color: aliceblue;
+    margin-top: -8;
+    padding: 10px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}

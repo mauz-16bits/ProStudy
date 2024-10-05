@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProStudy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="title">
+    
+    <div class="write">
+
+        <h1>ProStudy</h1>
+        <h3 class="subT">Organização escolar</h3>
+        <a onclick="cad()" class="firC">Cadastre-se</a>
+        <a onclick="log()" class="firC">Faça Login</a>
+
+    </div>
+
+    <!-- PARA DE MEXER NO ID DO DIALOG -->
+
+    <dialog id="cadastro">
+        <h2>Cadastre-se</h2>
+        <form action="cadastro.php" method="post">@
+        <input class="inpDia" type="text" name="cName" id="cName" placeholder="Nome de usuário"> <br>
+        <input class="inpDia" type="number" name="cAge" id="cAge" placeholder="Idade"> <br>
+        <input class="inpDia" type="password" name="cPsw" id="cPsw" placeholder="Senha"> <br>
+        <input class="inpDia" type="password" name="cCpsw" id="cCpsw" placeholder="Confirme sua senha"> <br>
+        <button class="btnDia" onclick="fcad()">Concluir</button> <br>
+    </form>
+    </dialog>
+
+    <dialog id="login">
+        <h2>Faça Login</h2>
+        <form action="login.php" method="post">@
+        <input class="inpDia" type="text" name="lName" id="lName" placeholder="Nome"> <br>
+        <input class="inpDia" type="password" name="lPsw" id="lPsw" placeholder="Senha"> <br>
+        <button class="btnDia" onclick="flog()">Concluir</button> <br>
+    </form>
+    </dialog>
+
+</div>
+
+<div class="content">
+
+    <h1>O ProStudy é uma ferramenta</h1> 
+    <h3 class="subTxt">desenvolvida para estudantes organizarem suas tarefas</h3>
+    <h3 class="subTxt">com funcionalidades relevantes e uma interface intuitiva</h3>
+    <h2 class="subTxt">100% Gratuita!</h2>
+
+    <h2>Comece hoje mesmo!</h2>
+
+    <a onclick="cad()" class="secC">Cadastre-se</a>
+    <a onclick="log()" class="secC">Faça Login</a> <br>
+
+    <img src="prostudylists.png" alt="" class="imgExemple" width="750px">
+    <figcaption style="margin-bottom: 10px;">Se organize com facilidade!</figcaption>
+</div>
+
+<footer>
+
+    <!-- Coloca nossos nomes mauricio -->
+    <!-- pdp, tinha esquecido, foi mal -->
+     <!-- de boass -->
+
+    <p>Todos os direitos reservados &copy Maurício Soares, Henrique Santos, Matheus Vasconcelos, 2024</p>
+
+    <!-- Fdp, meu nome não é dos santos não, é só santos -->
+    <!-- escrevia vc ent -->
+
+    <!-- para de ficar colocando comentário desnecessário, se fala no discord seus fdp -->
+
+</footer>
+</body>
+<script src="main.js"></script>
+</html>
