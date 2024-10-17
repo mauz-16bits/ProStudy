@@ -1,3 +1,6 @@
+// é realmente necessário isso aqui?
+// sim
+
 let cadastro = document.getElementById('cadastro')
 let login = document.getElementById('login')
 
