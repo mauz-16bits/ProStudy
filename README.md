@@ -1,4 +1,4 @@
-<h1>Sobre</h1>
+<h1 align=center >Sobre</h1>
 
 O ProStudy é uma ferramenta web que permite os usuários organizarem suas tarefas, principalmente, escolares, mas é aplicável em muitos outros cenários.
 🚧 Ainda em desenvolvimento 🚧
